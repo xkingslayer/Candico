@@ -38,6 +38,17 @@ const routes: Routes = [
         ]
       },
       {
+        path: 'republicans',
+        children: [
+          {
+            path:'tabs',
+            loadChildren: () =>
+              import('../republicans/republicans.module').then(m => m.RepublicansPageModule)
+          }
+        ]
+      },
+      
+      {
         path: '',
         redirectTo: '/tabs/tab1',
         pathMatch: 'full'
