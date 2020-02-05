@@ -2,29 +2,27 @@ import { Component, OnInit } from '@angular/core';
 import { ModalController, NavParams } from '@ionic/angular';
 
 @Component({
-  selector: 'app-modal',
-  templateUrl: './modal.page.html',
-  styleUrls: ['./modal.page.scss'],
+  selector: 'app-second',
+  templateUrl: './second.page.html',
+  styleUrls: ['./second.page.scss'],
 })
-export class ModalPage implements OnInit {
-
-  modalTitle:string;
-  modelId:number;
- 
-  constructor(
+export class SecondPage implements OnInit {
+  
+  modalTitle:SecondPage;
+  modelId:123;
+  
+  constructor(    
     public modalController: ModalController,
     public navParams: NavParams
-  ) { }
- 
+    ) { }
+
   ngOnInit() {
     console.table(this.navParams);
     this.modelId = this.navParams.data.paramID;
     this.modalTitle = this.navParams.data.paramTitle;
   }
- 
   async dismiss() {
     const onClosedData: string = "Wrapped Up!";
     await this.modalController.dismiss(onClosedData);
   }
-
 }

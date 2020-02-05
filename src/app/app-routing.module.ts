@@ -57,10 +57,6 @@ const routes: Routes = [
     loadChildren: () => import('./Democratic pages/amy/amy.module').then( m => m.AmyPageModule)
   },
   {
-    path: 'booker',
-    loadChildren: () => import('./Democratic pages/booker/booker.module').then( m => m.BookerPageModule)
-  },
-  {
     path: 'gabbard',
     loadChildren: () => import('./Democratic pages/gabbard/gabbard.module').then( m => m.GabbardPageModule)
   },
@@ -73,21 +69,45 @@ const routes: Routes = [
     loadChildren: () => import('./Democratic pages/patrick/patrick.module').then( m => m.PatrickPageModule)
   },
   {
-    path: 'mari',
-    loadChildren: () => import('./Democratic pages/mari/mari.module').then( m => m.MariPageModule)
-  },
-  {
-    path: 'john',
-    loadChildren: () => import('./Democratic pages/john/john.module').then( m => m.JohnPageModule)
-  },
-  {
     path: 'modal',
     loadChildren: () => import('./modal/modal.module').then( m => m.ModalPageModule)
+  },
+  {
+    path: 'second',
+    loadChildren: () => import('./modal/second/second.module').then( m => m.SecondPageModule)
+  },
+  {
+    path: 'third',
+    loadChildren: () => import('./modal/third/third.module').then( m => m.ThirdPageModule)
+  },
+  {
+    path: 'fourth',
+    loadChildren: () => import('./modal/fourth/fourth.module').then( m => m.FourthPageModule)
+  },
+  {
+    path: 'fifth',
+    loadChildren: () => import('./modal/fifth/fifth.module').then( m => m.FifthPageModule)
+  },
+  {
+    path: 'r6',
+    loadChildren: () => import('./modal/r6/r6.module').then( m => m.R6PageModule)
+  },
+  {
+    path: 'r7',
+    loadChildren: () => import('./modal/r7/r7.module').then( m => m.R7PageModule)
+  },
+  {
+    path: 'r8',
+    loadChildren: () => import('./modal/r8/r8.module').then( m => m.R8PageModule)
+  },
+  {
+    path: 'r9',
+    loadChildren: () => import('./modal/r9/r9.module').then( m => m.R9PageModule)
   },
 ];
 @NgModule({
   imports: [
-    RouterModule.forRoot(routes, { preloadingStrategy: PreloadAllModules })
+    RouterModule.forRoot(routes, { preloadingStrategy: PreloadAllModules },)
   ],
   exports: [RouterModule]
 })

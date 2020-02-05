@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ModalController } from '@ionic/angular';
+import { R9Page } from '../../modal/r9/r9.page';
 
 @Component({
   selector: 'app-weld',
@@ -7,9 +9,29 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WeldPage implements OnInit {
 
-  constructor() { }
+  dataReturned: any;
 
-  ngOnInit() {
-  }
+  constructor(public modalController: ModalController) { }
 
+  ngOnInit() { }
+  
+  async presentModal9() {
+    const modal = await this.modalController.create({
+      component: R9Page,
+      componentProps: {
+        "paramID": 123,
+        "paramTitle": "ModalPage"
+      }
+    });
+    
+    
+    modal.onDidDismiss().then((dataReturned) => {
+      if (dataReturned !== null) {
+        this.dataReturned = dataReturned.data;
+        //alert('Modal Sent Data :'+ dataReturned);
+      }
+    });
+ 
+    return await modal.present();
+}
 }

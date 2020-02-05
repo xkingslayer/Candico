@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { ModalController, NavParams } from '@ionic/angular';
 
 @Component({
-  selector: 'app-modal',
-  templateUrl: './modal.page.html',
-  styleUrls: ['./modal.page.scss'],
+  selector: 'app-r6',
+  templateUrl: './r6.page.html',
+  styleUrls: ['./r6.page.scss'],
 })
-export class ModalPage implements OnInit {
+export class R6Page implements OnInit {
 
   modalTitle:string;
   modelId:number;

@@ -20,7 +20,7 @@
     <ion-card-header>
       <ion-card-title>Economy</ion-card-title>
     </ion-card-header>
-    <ion-card-content><ion-row><ion-col width-50 style="text-align: center"><ion-button (click)="presentModal()"><ion-icon slot="end" name="cash"></ion-icon>Economic Views</ion-button></ion-col></ion-row></ion-card-content>
+    <ion-card-content><ion-row><ion-col width-50 style="text-align: center"><ion-button (click)="presentModal9()"><ion-icon slot="end" name="cash"></ion-icon>Economic Views</ion-button></ion-col></ion-row></ion-card-content>
   </ion-card>
 
   <ion-card>
@@ -72,28 +72,3 @@
     <ion-card-content><ion-row><ion-col width-50 style="text-align: center"><ion-button (click)="presentModal()"><ion-icon slot="end" name="person-add"></ion-icon>Electoral Views</ion-button></ion-col></ion-row></ion-card-content>
   </ion-card>
 </ion-content>
-
-<script>
-  customElements.define('modal-content', class ModalContent extends HTMLElement {
-    connectedCallback() {
-      
-    }
-  });
-  let currentModal = null;
-  const controller = document.querySelector('ion-card');
-  const button = document.querySelector('ion-button');
-  button.addEventListener('click', createModal);
-  function createModal() {
-    controller.create({
-      component: 'modal-content'
-    }).then(modal => {
-      modal.present();
-      currentModal = modal;
-    });
-  }
-  function dismissModal() {
-    if (currentModal) {
-      currentModal.dismiss().then(() => { currentModal = null; });
-    }
-  }
-</script>

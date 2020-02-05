@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { ModalController, NavParams } from '@ionic/angular';
 
 @Component({
-  selector: 'app-modal',
-  templateUrl: './modal.page.html',
-  styleUrls: ['./modal.page.scss'],
+  selector: 'app-fourth',
+  templateUrl: './fourth.page.html',
+  styleUrls: ['./fourth.page.scss'],
 })
-export class ModalPage implements OnInit {
+export class FourthPage implements OnInit {
 
   modalTitle:string;
   modelId:number;

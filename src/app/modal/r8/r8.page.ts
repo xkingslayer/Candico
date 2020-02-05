@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { ModalController, NavParams } from '@ionic/angular';
 
 @Component({
-  selector: 'app-modal',
-  templateUrl: './modal.page.html',
-  styleUrls: ['./modal.page.scss'],
+  selector: 'app-r8',
+  templateUrl: './r8.page.html',
+  styleUrls: ['./r8.page.scss'],
 })
-export class ModalPage implements OnInit {
+export class R8Page implements OnInit {
 
   modalTitle:string;
   modelId:number;
