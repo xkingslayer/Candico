@@ -145,8 +145,116 @@ const routes: Routes = [
     loadChildren: () => import('./modal/r19/r19.module').then( m => m.R19PageModule)
   },
   {
-    path: 'r120',
+    path: 'r20',
     loadChildren: () => import('./modal/r20/r20.module').then( m => m.R20PageModule)
+  },
+  {
+    path: 'r21',
+    loadChildren: () => import('./modal/r21/r21.module').then( m => m.R21PageModule)
+  },
+  {
+    path: 'r22',
+    loadChildren: () => import('./modal/r22/r22.module').then( m => m.R22PageModule)
+  },
+  {
+    path: 'r23',
+    loadChildren: () => import('./modal/r23/r23.module').then( m => m.R23PageModule)
+  },
+  {
+    path: 'd1',
+    loadChildren: () => import('./modal/d1/d1.module').then( m => m.D1PageModule)
+  },
+  {
+    path: 'd2',
+    loadChildren: () => import('./modal/d2/d2.module').then( m => m.D2PageModule)
+  },
+  {
+    path: 'd3',
+    loadChildren: () => import('./modal/d3/d3.module').then( m => m.D3PageModule)
+  },
+  {
+    path: 'd4',
+    loadChildren: () => import('./modal/d4/d4.module').then( m => m.D4PageModule)
+  },
+  {
+    path: 'd5',
+    loadChildren: () => import('./modal/d5/d5.module').then( m => m.D5PageModule)
+  },
+  {
+    path: 'd6',
+    loadChildren: () => import('./modal/d6/d6.module').then( m => m.D6PageModule)
+  },
+  {
+    path: 'd7',
+    loadChildren: () => import('./modal/d7/d7.module').then( m => m.D7PageModule)
+  },
+  {
+    path: 'd8',
+    loadChildren: () => import('./modal/d8/d8.module').then( m => m.D8PageModule)
+  },
+  {
+    path: 'd9',
+    loadChildren: () => import('./modal/d9/d9.module').then( m => m.D9PageModule)
+  },
+  {
+    path: 'd10',
+    loadChildren: () => import('./modal/d10/d10.module').then( m => m.D10PageModule)
+  },
+  {
+    path: 'd11',
+    loadChildren: () => import('./modal/d11/d11.module').then( m => m.D11PageModule)
+  },
+  {
+    path: 'd12',
+    loadChildren: () => import('./modal/d12/d12.module').then( m => m.D12PageModule)
+  },
+  {
+    path: 'd13',
+    loadChildren: () => import('./modal/d13/d13.module').then( m => m.D13PageModule)
+  },
+  {
+    path: 'd14',
+    loadChildren: () => import('./modal/d14/d14.module').then( m => m.D14PageModule)
+  },
+  {
+    path: 'd15',
+    loadChildren: () => import('./modal/d15/d15.module').then( m => m.D15PageModule)
+  },
+  {
+    path: 'd16',
+    loadChildren: () => import('./modal/d16/d16.module').then( m => m.D16PageModule)
+  },
+  {
+    path: 'd17',
+    loadChildren: () => import('./modal/d17/d17.module').then( m => m.D17PageModule)
+  },
+  {
+    path: 'd18',
+    loadChildren: () => import('./modal/d18/d18.module').then( m => m.D18PageModule)
+  },
+  {
+    path: 'd19',
+    loadChildren: () => import('./modal/d19/d19.module').then( m => m.D19PageModule)
+  },
+  {
+    path: 'd20',
+    loadChildren: () => import('./modal/d20/d20.module').then( m => m.D20PageModule)
+  },
+  {
+    path: 'd21',
+    loadChildren: () => import('./modal/d21/d21.module').then( m => m.D21PageModule)
+  },
+  {
+    path: 'd22',
+    loadChildren: () => import('./modal/d22/d22.module').then( m => m.D22PageModule)
+  },
+  {
+    path: 'd23',
+    loadChildren: () => import('./modal/d23/d23.module').then( m => m.D23PageModule)
+  },
+  {
+    path: 'd24',
+    loadChildren: () => import('./modal/d24/d24.module').then( m => m.D24PageModule)
   },
 ];
 @NgModule({

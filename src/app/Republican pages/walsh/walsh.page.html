@@ -48,52 +48,28 @@
     <ion-card-header>
       <ion-card-title>Health Care</ion-card-title>
     </ion-card-header>
-    <ion-card-content><ion-row><ion-col width-50 style="text-align: center"><ion-button (click)="presentModal()"><ion-icon slot="end" name="medkit"></ion-icon>Health Care Views</ion-button></ion-col></ion-row></ion-card-content>
+    <ion-card-content><ion-row><ion-col width-50 style="text-align: center"><ion-button (click)="presentModal21()"><ion-icon slot="end" name="medkit"></ion-icon>Health Care Views</ion-button></ion-col></ion-row></ion-card-content>
   </ion-card>
 
   <ion-card>
     <ion-card-header>
       <ion-card-title>Immigration</ion-card-title>
     </ion-card-header>
-    <ion-card-content><ion-row><ion-col width-50 style="text-align: center"><ion-button (click)="presentModal()"><ion-icon slot="end" name="man"></ion-icon>Immigration Views</ion-button></ion-col></ion-row></ion-card-content>
+    <ion-card-content><ion-row><ion-col width-50 style="text-align: center"><ion-button (click)="presentModal22()"><ion-icon slot="end" name="man"></ion-icon>Immigration Views</ion-button></ion-col></ion-row></ion-card-content>
   </ion-card>
   
   <ion-card>
     <ion-card-header>
       <ion-card-title>Criminal Justice</ion-card-title>
     </ion-card-header>
-    <ion-card-content><ion-row><ion-col width-50 style="text-align: center"><ion-button (click)="presentModal()"><ion-icon slot="end" name="finger-print"></ion-icon>Criminal Justice Views</ion-button></ion-col></ion-row></ion-card-content>
+    <ion-card-content><ion-row><ion-col width-50 style="text-align: center"><ion-button (click)="presentModal23()"><ion-icon slot="end" name="finger-print"></ion-icon>Criminal Justice Views</ion-button></ion-col></ion-row></ion-card-content>
   </ion-card>
 
   <ion-card>
     <ion-card-header>
       <ion-card-title>Elections</ion-card-title>
     </ion-card-header>
-    <ion-card-content><ion-row><ion-col width-50 style="text-align: center"><ion-button (click)="presentModal()"><ion-icon slot="end" name="person-add"></ion-icon>Electoral Views</ion-button></ion-col></ion-row></ion-card-content>
+    <ion-card-content><ion-row><ion-col width-50 style="text-align: center"><ion-button (click)="presentModal24()"><ion-icon slot="end" name="person-add"></ion-icon>Electoral Views</ion-button></ion-col></ion-row></ion-card-content>
   </ion-card>
 </ion-content>
 
-<script>
-  customElements.define('modal-content', class ModalContent extends HTMLElement {
-    connectedCallback() {
-      
-    }
-  });
-  let currentModal = null;
-  const controller = document.querySelector('ion-card');
-  const button = document.querySelector('ion-button');
-  button.addEventListener('click', createModal);
-  function createModal() {
-    controller.create({
-      component: 'modal-content'
-    }).then(modal => {
-      modal.present();
-      currentModal = modal;
-    });
-  }
-  function dismissModal() {
-    if (currentModal) {
-      currentModal.dismiss().then(() => { currentModal = null; });
-    }
-  }
-</script>
