@@ -1,19 +1,19 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 
-import { YangPage } from './yang.page';
+import { D32Page } from './d32.page';
 
-describe('YangPage', () => {
-  let component: YangPage;
-  let fixture: ComponentFixture<YangPage>;
+describe('D32Page', () => {
+  let component: D32Page;
+  let fixture: ComponentFixture<D32Page>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ YangPage ],
+      declarations: [ D32Page ],
       imports: [IonicModule.forRoot()]
     }).compileComponents();
 
-    fixture = TestBed.createComponent(YangPage);
+    fixture = TestBed.createComponent(D32Page);
     component = fixture.componentInstance;
     fixture.detectChanges();
   }));

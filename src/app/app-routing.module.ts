@@ -49,24 +49,12 @@ const routes: Routes = [
     loadChildren: () => import('./Democratic pages/pete/pete.module').then( m => m.PetePageModule)
   },
   {
-    path: 'yang',
-    loadChildren: () => import('./Democratic pages/yang/yang.module').then( m => m.YangPageModule)
-  },
-  {
     path: 'amy',
     loadChildren: () => import('./Democratic pages/amy/amy.module').then( m => m.AmyPageModule)
   },
   {
     path: 'gabbard',
     loadChildren: () => import('./Democratic pages/gabbard/gabbard.module').then( m => m.GabbardPageModule)
-  },
-  {
-    path: 'bennet',
-    loadChildren: () => import('./Democratic pages/bennet/bennet.module').then( m => m.BennetPageModule)
-  },
-  {
-    path: 'patrick',
-    loadChildren: () => import('./Democratic pages/patrick/patrick.module').then( m => m.PatrickPageModule)
   },
   {
     path: 'modal',
@@ -255,6 +243,38 @@ const routes: Routes = [
   {
     path: 'd24',
     loadChildren: () => import('./modal/d24/d24.module').then( m => m.D24PageModule)
+  },
+  {
+    path: 'd25',
+    loadChildren: () => import('./modal/d25/d25.module').then( m => m.D25PageModule)
+  },
+  {
+    path: 'd26',
+    loadChildren: () => import('./modal/d26/d26.module').then( m => m.D26PageModule)
+  },
+  {
+    path: 'd27',
+    loadChildren: () => import('./modal/d27/d27.module').then( m => m.D27PageModule)
+  },
+  {
+    path: 'd28',
+    loadChildren: () => import('./modal/d28/d28.module').then( m => m.D28PageModule)
+  },
+  {
+    path: 'd29',
+    loadChildren: () => import('./modal/d29/d29.module').then( m => m.D29PageModule)
+  },
+  {
+    path: 'd30',
+    loadChildren: () => import('./modal/d30/d30.module').then( m => m.D30PageModule)
+  },
+  {
+    path: 'd31',
+    loadChildren: () => import('./modal/d31/d31.module').then( m => m.D31PageModule)
+  },
+  {
+    path: 'd32',
+    loadChildren: () => import('./modal/d32/d32.module').then( m => m.D32PageModule)
   },
 ];
 @NgModule({

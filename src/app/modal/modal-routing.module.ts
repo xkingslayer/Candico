@@ -147,6 +147,38 @@ const routes: Routes = [
     path: 'd24',
     loadChildren: () => import('./d24/d24.module').then( m => m.D24PageModule)
   },
+  {
+    path: 'd25',
+    loadChildren: () => import('./d25/d25.module').then( m => m.D25PageModule)
+  },
+  {
+    path: 'd26',
+    loadChildren: () => import('./d26/d26.module').then( m => m.D26PageModule)
+  },
+  {
+    path: 'd27',
+    loadChildren: () => import('./d27/d27.module').then( m => m.D27PageModule)
+  },
+  {
+    path: 'd28',
+    loadChildren: () => import('./d28/d28.module').then( m => m.D28PageModule)
+  },
+  {
+    path: 'd29',
+    loadChildren: () => import('./d29/d29.module').then( m => m.D29PageModule)
+  },
+  {
+    path: 'd30',
+    loadChildren: () => import('./d30/d30.module').then( m => m.D30PageModule)
+  },
+  {
+    path: 'd31',
+    loadChildren: () => import('./d31/d31.module').then( m => m.D31PageModule)
+  },
+  {
+    path: 'd32',
+    loadChildren: () => import('./d32/d32.module').then( m => m.D32PageModule)
+  },
 
 ];
 

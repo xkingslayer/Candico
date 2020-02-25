@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { BennetPageRoutingModule } from './bennet-routing.module';
+import { D28PageRoutingModule } from './d28-routing.module';
 
-import { BennetPage } from './bennet.page';
+import { D28Page } from './d28.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    BennetPageRoutingModule
+    D28PageRoutingModule
   ],
-  declarations: [BennetPage]
+  declarations: [D28Page]
 })
-export class BennetPageModule {}
+export class D28PageModule {}

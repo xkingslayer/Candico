@@ -56,7 +56,14 @@ import { D21PageModule } from './modal/d21/d21.module';
 import { D22PageModule } from './modal/d22/d22.module';
 import { D23PageModule } from './modal/d23/d23.module';
 import { D24PageModule } from './modal/d24/d24.module';
-
+import { D25PageModule } from './modal/d25/d25.module';
+import { D26PageModule } from './modal/d26/d26.module';
+import { D27PageModule } from './modal/d27/d27.module';
+import { D28PageModule } from './modal/d28/d28.module';
+import { D29PageModule } from './modal/d29/d29.module';
+import { D30PageModule } from './modal/d30/d30.module';
+import { D31PageModule } from './modal/d31/d31.module';
+import { D32PageModule } from './modal/d32/d32.module';
 
 
 
@@ -68,7 +75,8 @@ import { D24PageModule } from './modal/d24/d24.module';
     R19PageModule, R20PageModule, R21PageModule, R22PageModule, R23PageModule, R24PageModule, D1PageModule, D2PageModule, D3PageModule,
     D4PageModule, D5PageModule, D6PageModule, D7PageModule, D8PageModule, D9PageModule, D10PageModule, D11PageModule, D12PageModule,
     D13PageModule, D14PageModule, D15PageModule, D16PageModule, D17PageModule, D18PageModule, D19PageModule, D20PageModule,
-    D21PageModule, D22PageModule, D23PageModule, D24PageModule],
+    D21PageModule, D22PageModule, D23PageModule, D24PageModule, D25PageModule, D26PageModule, D27PageModule, D28PageModule, D29PageModule,
+    D30PageModule, D31PageModule, D32PageModule],
   providers: [
     StatusBar,
     SplashScreen,

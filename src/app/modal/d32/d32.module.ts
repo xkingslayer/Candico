@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { YangPageRoutingModule } from './yang-routing.module';
+import { D32PageRoutingModule } from './d32-routing.module';
 
-import { YangPage } from './yang.page';
+import { D32Page } from './d32.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    YangPageRoutingModule
+    D32PageRoutingModule
   ],
-  declarations: [YangPage]
+  declarations: [D32Page]
 })
-export class YangPageModule {}
+export class D32PageModule {}
