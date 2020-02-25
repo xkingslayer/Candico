@@ -22,7 +22,7 @@ export class PetePage implements OnInit {
 
   ngOnInit() {}
 
-  async presentModal33() {
+  async presentModal41() {
     const modal = await this.modalController.create({
       component: D25Page,
       componentProps: {
@@ -41,7 +41,7 @@ export class PetePage implements OnInit {
  
     return await modal.present();
   }
-  async presentModal34() {
+  async presentModal42() {
     const modal = await this.modalController.create({
       component: D26Page,
       componentProps: {
@@ -60,7 +60,7 @@ export class PetePage implements OnInit {
  
     return await modal.present();
   }
-  async presentModal35() {
+  async presentModal43() {
     const modal = await this.modalController.create({
       component: D27Page,
       componentProps: {
@@ -79,7 +79,7 @@ export class PetePage implements OnInit {
  
     return await modal.present();
   }
-  async presentModal36() {
+  async presentModal44() {
     const modal = await this.modalController.create({
       component: D28Page,
       componentProps: {
@@ -98,7 +98,7 @@ export class PetePage implements OnInit {
  
     return await modal.present();
   }
-  async presentModal37() {
+  async presentModal45() {
     const modal = await this.modalController.create({
       component: D29Page,
       componentProps: {
@@ -117,7 +117,7 @@ export class PetePage implements OnInit {
  
     return await modal.present();
   }
-  async presentModal38() {
+  async presentModal46() {
     const modal = await this.modalController.create({
       component: D30Page,
       componentProps: {
@@ -136,7 +136,7 @@ export class PetePage implements OnInit {
  
     return await modal.present();
   }
-  async presentModal39() {
+  async presentModal47() {
     const modal = await this.modalController.create({
       component: D31Page,
       componentProps: {
@@ -155,7 +155,7 @@ export class PetePage implements OnInit {
  
     return await modal.present();
   }
-  async presentModal40() {
+  async presentModal48() {
     const modal = await this.modalController.create({
       component: D32Page,
       componentProps: {

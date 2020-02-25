@@ -179,6 +179,70 @@ const routes: Routes = [
     path: 'd32',
     loadChildren: () => import('./d32/d32.module').then( m => m.D32PageModule)
   },
+  {
+    path: 'd33',
+    loadChildren: () => import('./d33/d33.module').then( m => m.D33PageModule)
+  },
+  {
+    path: 'd34',
+    loadChildren: () => import('./d34/d34.module').then( m => m.D34PageModule)
+  },
+  {
+    path: 'd35',
+    loadChildren: () => import('./d35/d35.module').then( m => m.D35PageModule)
+  },
+  {
+    path: 'd36',
+    loadChildren: () => import('./d36/d36.module').then( m => m.D36PageModule)
+  },
+  {
+    path: 'd37',
+    loadChildren: () => import('./d37/d37.module').then( m => m.D37PageModule)
+  },
+  {
+    path: 'd38',
+    loadChildren: () => import('./d38/d38.module').then( m => m.D38PageModule)
+  },
+  {
+    path: 'd39',
+    loadChildren: () => import('./d39/d39.module').then( m => m.D39PageModule)
+  },
+  {
+    path: 'd40',
+    loadChildren: () => import('./d40/d40.module').then( m => m.D40PageModule)
+  },
+  {
+    path: 'd41',
+    loadChildren: () => import('./d41/d41.module').then( m => m.D41PageModule)
+  },
+  {
+    path: 'd42',
+    loadChildren: () => import('./d42/d42.module').then( m => m.D42PageModule)
+  },
+  {
+    path: 'd43',
+    loadChildren: () => import('./d43/d43.module').then( m => m.D43PageModule)
+  },
+  {
+    path: 'd44',
+    loadChildren: () => import('./d44/d44.module').then( m => m.D44PageModule)
+  },
+  {
+    path: 'd45',
+    loadChildren: () => import('./d45/d45.module').then( m => m.D45PageModule)
+  },
+  {
+    path: 'd46',
+    loadChildren: () => import('./d46/d46.module').then( m => m.D46PageModule)
+  },
+  {
+    path: 'd47',
+    loadChildren: () => import('./d47/d47.module').then( m => m.D47PageModule)
+  },
+  {
+    path: 'd48',
+    loadChildren: () => import('./d48/d48.module').then( m => m.D48PageModule)
+  },
 
 ];
 
