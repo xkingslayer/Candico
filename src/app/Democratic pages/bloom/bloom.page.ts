@@ -1,20 +1,20 @@
 import { Component, OnInit } from '@angular/core';
 import { ModalController } from '@ionic/angular';
-import { D57Page } from '../../modal/d57/d57.page';
-import { D58Page } from '../../modal/d58/d58.page';
-import { D59Page } from '../../modal/d59/d59.page';
-import { D60Page } from '../../modal/d60/d60.page';
-import { D61Page } from '../../modal/d61/d61.page';
-import { D62Page } from '../../modal/d62/d62.page';
-import { D63Page } from '../../modal/d63/d63.page';
-import { D64Page } from '../../modal/d64/d64.page';
+import { D49Page } from '../../modal/d49/d49.page';
+import { D50Page } from '../../modal/d50/d50.page';
+import { D51Page } from '../../modal/d51/d51.page';
+import { D52Page } from '../../modal/d52/d52.page';
+import { D53Page } from '../../modal/d53/d53.page';
+import { D54Page } from '../../modal/d54/d54.page';
+import { D55Page } from '../../modal/d55/d55.page';
+import { D56Page } from '../../modal/d56/d56.page';
 
 @Component({
-  selector: 'app-steyer',
-  templateUrl: './steyer.page.html',
-  styleUrls: ['./steyer.page.scss'],
+  selector: 'app-bloom',
+  templateUrl: './bloom.page.html',
+  styleUrls: ['./bloom.page.scss'],
 })
-export class SteyerPage implements OnInit {
+export class BloomPage implements OnInit {
   
   dataReturned: any;
 
@@ -22,12 +22,12 @@ export class SteyerPage implements OnInit {
 
   ngOnInit() {}
 
-  async presentModal73() {
+  async presentModal65() {
     const modal = await this.modalController.create({
-      component: D57Page,
+      component: D49Page,
       componentProps: {
         "paramID": 123,
-        "paramTitle": "D57Page"
+        "paramTitle": "D49Page"
       }
     });
     
@@ -41,12 +41,12 @@ export class SteyerPage implements OnInit {
  
     return await modal.present();
   }
-  async presentModal74() {
+  async presentModal66() {
     const modal = await this.modalController.create({
-      component: D58Page,
+      component: D50Page,
       componentProps: {
         "paramID": 123,
-        "paramTitle": "D58Page"
+        "paramTitle": "D50Page"
       }
     });
     
@@ -60,12 +60,12 @@ export class SteyerPage implements OnInit {
  
     return await modal.present();
   }
-  async presentModal75() {
+  async presentModal67() {
     const modal = await this.modalController.create({
-      component: D59Page,
+      component: D51Page,
       componentProps: {
         "paramID": 123,
-        "paramTitle": "D59Page"
+        "paramTitle": "D51Page"
       }
     });
     
@@ -79,12 +79,12 @@ export class SteyerPage implements OnInit {
  
     return await modal.present();
   }
-  async presentModal76() {
+  async presentModal68() {
     const modal = await this.modalController.create({
-      component: D60Page,
+      component: D52Page,
       componentProps: {
         "paramID": 123,
-        "paramTitle": "D60Page"
+        "paramTitle": "D52Page"
       }
     });
     
@@ -98,12 +98,12 @@ export class SteyerPage implements OnInit {
  
     return await modal.present();
   }
-  async presentModal77() {
+  async presentModal69() {
     const modal = await this.modalController.create({
-      component: D61Page,
+      component: D53Page,
       componentProps: {
         "paramID": 123,
-        "paramTitle": "D61Page"
+        "paramTitle": "D53Page"
       }
     });
     
@@ -117,12 +117,12 @@ export class SteyerPage implements OnInit {
  
     return await modal.present();
   }
-  async presentModal78() {
+  async presentModal70() {
     const modal = await this.modalController.create({
-      component: D62Page,
+      component: D54Page,
       componentProps: {
         "paramID": 123,
-        "paramTitle": "D62Page"
+        "paramTitle": "D54Page"
       }
     });
     
@@ -136,12 +136,12 @@ export class SteyerPage implements OnInit {
  
     return await modal.present();
   }
-  async presentModal79() {
+  async presentModal71() {
     const modal = await this.modalController.create({
-      component: D63Page,
+      component: D55Page,
       componentProps: {
         "paramID": 123,
-        "paramTitle": "D63Page"
+        "paramTitle": "D55Page"
       }
     });
     
@@ -155,12 +155,12 @@ export class SteyerPage implements OnInit {
  
     return await modal.present();
   }
-  async presentModal80() {
+  async presentModal72() {
     const modal = await this.modalController.create({
-      component: D64Page,
+      component: D56Page,
       componentProps: {
         "paramID": 123,
-        "paramTitle": "D64Page"
+        "paramTitle": "D56Page"
       }
     });
     
