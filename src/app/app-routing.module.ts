@@ -37,18 +37,6 @@ const routes: Routes = [
     loadChildren: () => import('./Democratic pages/sanders/sanders.module').then( m => m.SandersPageModule)
   },
   {
-    path: 'warren',
-    loadChildren: () => import('./Democratic pages/warren/warren.module').then( m => m.WarrenPageModule)
-  },
-  {
-    path: 'pete',
-    loadChildren: () => import('./Democratic pages/pete/pete.module').then( m => m.PetePageModule)
-  },
-  {
-    path: 'amy',
-    loadChildren: () => import('./Democratic pages/amy/amy.module').then( m => m.AmyPageModule)
-  },
-  {
     path: 'gabbard',
     loadChildren: () => import('./Democratic pages/gabbard/gabbard.module').then( m => m.GabbardPageModule)
   },
@@ -396,15 +384,6 @@ const routes: Routes = [
     path: 'd63',
     loadChildren: () => import('./modal/d63/d63.module').then( m => m.D63PageModule)
   },
-  {
-    path: 'steyer',
-    loadChildren: () => import('./Democratic pages/steyer/steyer.module').then( m => m.SteyerPageModule)
-  },
-  {
-    path: 'bloom',
-    loadChildren: () => import('./Democratic pages/bloom/bloom.module').then( m => m.BloomPageModule)
-  },
-
 ];
 @NgModule({
   imports: [
